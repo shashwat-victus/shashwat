@@ -1,5 +1,46 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-hacker
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Theme</title>
+    <style>
+        body {
+            background-color: black;
+            color: limegreen;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .code {
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px limegreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hacker Theme</h1>
+        <h2>Welcome to the Hacker Zone</h2>
+        <p>This is an example of a hacker-themed webpage.</p>
+        <div class="code">
+            <p>Code snippet:</p>
+            <pre>
+                <code>
+                    function hackTheSystem() {
+                        console.log('Access granted.');
+                    }
+                </code>
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
